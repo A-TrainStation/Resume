@@ -1,0 +1,418 @@
+/* Global styles */
+body {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 0;
+  font-size: 20px;
+  line-height: 1.6; /* Line-height specified */
+}
+a {
+    color: #a06fe0;
+    margin-right: 45px;
+    margin-left: 30px;
+   
+}
+a:hover {
+    text-decoration: none;
+}
+h1, h2 {
+  font-family: 'Caveat', cursive;
+  font-weight: 400;
+}
+h1 {
+  font-size: 60px; /* Decreased font size */
+}
+h2 {
+  font-size: 32px; /* Decreased font size */
+  margin-top: 0;
+}
+.content-wrap {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 50px;
+  overflow: hidden;
+}
+
+.column-narrow {
+  width: 100%; /* Changed width to 100% */
+  float: none; /* Removed float */
+  min-height: 175px;
+  margin-bottom: 20px; /* Added margin bottom */
+}
+.column-wide {
+  width: 100%; /* Changed width to 100% */
+  float: none; /* Removed float */
+  padding-left: 0; /* Removed padding */
+  min-height: 175px;
+  margin-bottom: 20px; /* Added margin bottom */
+}
+
+/* Header & Footer */
+header, 
+footer {
+  background:#a0f4da;
+  color: #6512f481;
+}
+header h1,
+header h2 {
+    color: #e410d9;
+    margin: 0;
+    font-size: 39px;
+}
+
+/* Header styles only */
+header {
+  text-align: center; /* Changed text alignment to center */
+}
+p{
+  font-size: 20px;
+}
+
+.profile-img {
+  width: 210px;
+  height: auto;
+  margin: 0 auto 20px; /* Centered the image */
+  display: block; /* Added to center the image */
+}
+
+.School-img{
+  width:150px;
+  height: auto;
+  display: inline-block;
+  margin-right: 100px;
+}
+.HY-VEE-img{
+  width:150px;
+  height: auto;
+  display: inline-block;
+  margin-right: 100px;
+}
+.Tennis-img{
+  width:150px;
+  height: auto;
+  display: inline-block;
+  margin-right: 100px;
+}
+.Realtor-img{
+  width:150px;
+  height: auto;
+  display: inline-block;
+  margin-right: 50px;
+}
+.download {
+  position: center;
+  bottom: 0;
+  left:0;
+}
+/* Alpha-transparency example */
+.transparent-background {
+  background-color: rgba(255, 255, 255, 0.5); /* White with 50% opacity */
+}
+
+/* Gradient background example */
+.gradient-background {
+  background: linear-gradient(to bottom, #ffffff, #e6e6e6); /* Gradient from white to light gray */
+}
+
+/* Footer styles only */
+footer {
+  text-align: center;
+}
+.contact-info a {
+  padding: 10px;
+  display: inline-block;
+}
+
+/* Work Experience */
+.work {
+    background: #e8c6b8;
+    padding: 20px; /* Added padding */
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    text-align: justify;
+    border: 1px solid #ccc; /* Added border around the job descriptions */
+    border-radius: 5px; /* Added border radius for rounded corners */
+    margin-bottom: 20px; /* Added margin bottom for spacing */
+    display: inline-flex; /* Set display to flex */
+    
+}
+
+.work .column-narrow,
+.work .column-wide {
+    width: 75%; /* Each column takes up half of the container's width */
+    padding: 10px; /* Added padding for spacing */
+    
+}
+
+.work h3 {
+  text-align: left;
+  color: maroon;
+}
+.work p {
+  text-align: left;
+  color:rgb(87, 18, 247);
+}
+.work ul {
+  list-style-type: none; /* Remove default bullet points */
+  padding-left: 20px; /* Add left padding for list items */
+  margin-top: 10px; /* Add top margin for spacing */
+}
+
+.work ul li {
+  padding-left: 10px; /* Add left padding for list items */
+  position: relative; /* Added relative positioning for ::before pseudo-element */
+}
+
+.work ul li::before {
+  content: "\2022"; /* Unicode character for bullet point */
+  position: absolute;
+  left: 0;
+  color: #dd31e3; /* Set color of bullet point */
+}
+
+/* Education */
+.education {
+  background: linear-gradient(rgba(141, 153, 174, 0.8),
+  rgba(141, 153, 174, 0.5)),
+  url(../01_05/Images/Taj\ Mahal.webp) no-repeat fixed;
+background-size: cover;
+}
+p + h3 {
+margin-top: 30px;
+    background: #e8c6b8;
+    color: rgb(148, 10, 95);
+    padding: 20px; /* Added padding */
+    display:flex;
+}
+
+.Logo-img{
+  width:600px;
+  height: 200px;
+  display: inline-block;
+  margin-right: 10px;
+
+}
+.vista-img{
+  width: 290px;
+  height: 0;
+  display:inline-block;
+  margin-right: 20px;
+  margin-left: 30px;
+  margin-top:200px;
+  
+}
+.warrior-img {
+  position: absolute;
+  left: 0;
+  width: 450px; /* Adjust the width as needed */
+  height:auto; /* Adjust the height as needed */
+  margin-top:300px;
+}
+
+
+/* Additional styles */
+/* Font sizes and styles */
+h3 {
+  font-size: 24px; /* Second font size */
+}
+
+/* Text alignment */
+.work h3,
+.work p {
+  text-align: justify; /* Text-align used */
+}
+
+/* Font weight */
+h3 {
+  font-weight: bold; /* Font-weight used */
+}
+
+/* Additional text property */
+p {
+  letter-spacing: 0.5px; /* Added letter-spacing */
+}
+
+/* Float in some manner */
+.column-narrow {
+  float: left; /* Float in some manner */
+}
+
+/* Box model fix */
+.work-experience {
+  box-sizing: border-box; /* Box model fix */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+/* Implement at least 2 columns */
+.work-experience {
+  width: 48%; /* Implement at least 2 columns */
+  margin-right: 2%; /* Implement at least 2 columns */
+}
+.work-experience:nth-child(2) {
+  margin-right: 0; /* Implement at least 2 columns */
+}
+
+/* For smaller screens */
+@media only screen and (max-width: 768px) {
+  /* Adjust styles here */
+  body {
+    font-size: 16px; /* Decrease font size for better readability */
+    line-height: 1.4; /* Adjust line height for better readability */
+  }
+  header h1, header h2 {
+    font-size: 32px; /* Decrease header font size */
+  }
+  .profile-img {
+    width: 150px; /* Decrease profile image size */
+  }
+  .Logo-img {
+    width: 300px; /* Decrease education logo size */
+    margin-top: 10px; /* Adjust margin for spacing */
+  }
+  .vista-img {
+    width: 200px; /* Decrease Vista logo size */
+    margin-top: 150px; /* Adjust margin for spacing */
+  }
+  .warrior-img {
+    width: 300px; /* Decrease Warrior logo size */
+    margin-top: 200px; /* Adjust margin for spacing */
+  }
+  .School-img,
+  .HY-VEE-img,
+  .Tennis-img,
+  .Realtor-img {
+    width: 100px; /* Decrease size of other images */
+    margin-right: 50px; /* Adjust margin for spacing */
+  }
+  .content-wrap {
+    padding: 20px; /* Decrease padding for content wrap */
+  }
+  .work,
+  .education {
+    flex-direction: column; /* Stack work and education vertically */
+    align-items: center; /* Center items */
+  }
+  .work .column-narrow,
+  .work .column-wide,
+  .education .column-narrow,
+  .education .column-wide {
+    width: 100%; /* Full width for columns */
+    padding: 10px 0; /* Adjust padding for columns */
+  }
+}
+
+/* For even smaller screens */
+@media only screen and (max-width: 480px) {
+  /* Adjust styles here */
+  body {
+    font-size: 14px; /* Further decrease font size for smaller screens */
+  }
+  header h1, header h2 {
+    font-size: 28px; /* Further decrease header font size */
+  }
+  .profile-img {
+    width: 120px; /* Further decrease profile image size */
+  }
+  .Logo-img {
+    width: 200px; /* Further decrease education logo size */
+  }
+  .vista-img {
+    width: 150px; /* Further decrease Vista logo size */
+  }
+  .warrior-img {
+    width: 250px; /* Further decrease Warrior logo size */
+  }
+  .School-img,
+  .HY-VEE-img,
+  .Tennis-img,
+  .Realtor-img {
+    width: 80px; /* Further decrease size of other images */
+    margin-right: 30px; /* Further adjust margin for spacing */
+  }
+}
+
+nav {
+ margin-right: 20px;
+ margin-left: 20px;
+ position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #49ec20;
+    padding: 10px 20px;
+    z-index: 1000;
+
+}
+nav {
+  display: flex; /* Use flexbox to align items */
+  justify-content: space-between; /* Distribute items evenly */
+  align-items: center; /* Center items vertically */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f7040479;
+  padding: 10px 20px;
+  z-index: 1000;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #fff;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* Add Media Queries */
+@media only screen and (max-width: 768px) {
+  /* Adjust layout for smaller screens */
+  /* Example: */
+  .profile-img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  /* Adjust layout for medium screens */
+  /* Example: */
+  .profile-img {
+    width: 50%;
+  }
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Adjust layout for large screens */
+  /* Example: */
+  .profile-img {
+    width: 30%;
+  }
+}
+
+/* Add your CSS for the animated effect */
+.animated-effect {
+  animation: slide-in 1s ease forwards;
+}
+
+@keyframes slide-in {
+  from {
+      opacity: 0;
+      transform: translateY(-50%);
+  }
+  to {
+      opacity: 1;
+      transform: translateY(0);
+  }
+}
+  /* Add your CSS for SVG image formatting */
+  .svg-image {
+    width: 100px;
+    height: auto;
+    fill: #ff0000; /* Change the fill color as per your requirement */
+}
+

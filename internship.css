@@ -1,0 +1,114 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5; /* Light gray background */
+    color: #333; /* Default font color */
+}
+
+/* Nav Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: #ea4d26;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+.column-narrow {
+    width: 100%;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+/* Internship Styles */
+.internship {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.internship h3 {
+    color: #21ba48; /* Change heading color */
+}
+
+.internship p {
+    color: #666; /* Adjust paragraph text color */
+}
+
+.internship ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+.internship ul li::before {
+    content: "\2022"; /* Use bullet point for list items */
+    color: #21ba48; /* Match heading color */
+    font-weight: bold; /* Make bullet point bold */
+    margin-right: 5px; /* Add spacing between bullet point and text */
+}
+
+/* Skills and Projects Section */
+.skills,
+.projects {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.skills h2,
+.projects h2 {
+    color: #333; /* Heading font color */
+    text-align: center;
+}
+
+.skills-list,
+.projects-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills-list li,
+.projects-list li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #21ba48; /* Project title color */
+}
+
+.project p {
+    color: #555; /* Project description color */
+}
+

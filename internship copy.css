@@ -1,0 +1,151 @@
+/* Global Styles */
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.content-wrap {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #333;
+    color: peachpuff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 20px;
+    
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+}
+
+.column-wide {
+    width: 70%;
+    float: right;
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px 0;
+}
+
+/* Education Styles */
+.education h2 {
+    color: #333;
+}
+
+.education-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.education-list li {
+    margin-bottom: 20px;
+}
+
+/* Work Experience Styles */
+.work h2 {
+    color: #333;
+}
+
+.work .column-narrow {
+    clear: both;
+}
+
+.work ul {
+    padding-left: 20px;
+}
+
+/* Internship Styles */
+.internship {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.internship h3 {
+    color: #21ba48;
+}
+
+.internship p {
+    color: #666;
+}
+
+.internship ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.contact-info a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.contact-info a:hover {
+    text-decoration: underline;
+}
+/* Skills and Projects Section */
+.skills,
+.projects {
+    background-color: #fe5406; /* Light gray background */
+    padding: 20px;
+    margin-top: 20px;
+    display:flex;
+    margin-left:20%;
+    margin-right:20%;
+}
+
+.skills h2,
+.projects h2 {
+    color: #333; /* Heading font color */
+    text-align: center;
+}
+
+.skills-list,
+.projects-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.skills-list li,
+.projects-list li {
+    margin-bottom: 10px;
+}
+
+.project {
+    margin-bottom: 20px;
+}
+
+.project h3 {
+    color: #21ba48; /* Project title color */
+}
+
+.project p {
+    color: #555; /* Project description color */
+}
